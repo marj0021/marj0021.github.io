@@ -1,0 +1,439 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+/* icon styles */
+
+.nav .fa-solid {
+    color: #c78c06;
+    font-size: 25px;
+    padding: 3px;
+}
+
+header .fa-solid {
+    color: #222;
+    padding-left: 10px;
+}
+
+.services .fa-solid {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.vision .fa-solid {
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* main heading styles  */
+
+h1 {
+    padding: 75px 25px 0 25px;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* navigation style... to be adjusted in media queries */
+
+.logo {
+    background-color: #c78c06;
+}
+
+a:link {
+    color: #c78c06;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #ffe6ac;
+}
+
+.nav ul li a {
+    display: block;
+    background-color: #222;
+    color: #c78c06;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#home a  {
+    background-color: #c78c06;
+    color: #222;
+}
+
+#home a:visited {
+    color: #fff;
+}
+
+#home a:hover {
+    color: #ffe6ac;
+}
+
+.nav input {
+    width: 80%;
+    padding: 11px 8px 4px 8px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.nav button {
+    padding: 2px;
+    margin-left:-20px;
+    background-color: #222;
+    border: solid 0.75px;
+    color: #c78c06;
+}
+
+/* welcome section styles... to be adjusted in media queries */
+
+.welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 900px;
+}
+
+header {
+    top: 120px;
+    background-color: rgba(2,2,2,0.6);
+    position: relative;
+    color: #fff;
+    height: auto;
+}
+
+header p {
+    padding: 40px 25px 20px 25px; 
+}
+
+header button  {
+    background-color: #c78c06;
+    margin: 0 0 25px 25px;
+    font-size: 18px;
+    padding: 25px; 
+}
+
+/* about section styles... add flex in media queries */
+
+.about {
+    background-color: #ffe6ac;
+    background-size: 100% 100%;
+    padding: 0 0 25px 0;
+    height: auto;
+}
+
+.about img {
+    padding-top: 25px;
+    width: 100%;
+}
+
+/* services section styles... add grid in media queries */
+
+.services {
+    margin-bottom: 25px;
+}
+
+.services img {
+    width: 100%;
+}
+
+.services div {
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+}
+
+.services h3 {
+    padding: 25px;
+}
+
+.services p {
+    padding: 0 25px 15px 25px;
+}
+
+.services button {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 15px 25px;
+    padding: 25px;
+}
+
+/* vision section styles */
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    height: auto;
+}
+
+.vision button {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0 20px 0;
+    padding: 25px; 
+}
+
+/* team section styles... add grid in media queries */
+
+.team h2 {
+    background-color: #fff;
+    padding-top: 40px;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -6px;
+}
+
+.team {
+    background-color: #ffe6ac;
+}
+
+.team h3 {
+    padding: 25px;
+}
+
+.team h4 {
+    margin: 5px 25px 10px 25px;
+    border-bottom: solid;
+    border-color: #c78c06;
+}
+
+.team p {
+    padding: 0 25px 15px 25px;
+}
+
+/* contact section styles... to be adjusted in media queries */
+
+#name,#email {
+    width: 99%;
+    padding: 5px;
+}
+
+textarea {
+    width: 99%;
+    height: 80px;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #222;
+    color: #c78c06;
+    width: 70px;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+/* contact section's table style */
+
+table {
+    width: 100%;
+    
+}
+
+table tr,th {
+    border: solid 0.5px;
+    padding: 15px;
+    text-align: left;
+}
+
+#days,#hours {
+    border: solid 0.5px;
+    background-color: #ffe6ac;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 25px 0 25px 0;
+}
+
+/* desktop layout starts here */
+
+@media screen and (min-width: 760px) {
+    .wrapper {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        background-color: #222;
+    }
+
+/* navigation section adjustments */
+
+    .nav input[type=text] {
+        width: 9.3rem;
+    }
+
+    .nav{
+        display: flex;
+        padding: 20px;
+    }
+    .nav ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 14px;
+    }
+    .logo {
+        background-color: #222;
+        padding-left: 25px;
+    }
+    .nav {
+        grid-template-columns: repeat(6,1fr);
+        background-color: #222;
+    }
+    .nav :nth-child(1) {
+        grid-column: 1/3;
+    }
+    .nav :nth-child(2) {
+        grid-column: 3/8;
+    }
+    .nav :nth-child(3) {
+        grid-column: 9/12;
+    }
+
+/* welcome section adjustments */
+
+    header {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+/* about section adjustments */
+
+    .about-flex {
+        display: flex;
+        width: 100%;
+    }
+
+    .about-img {
+        width: 50%;
+        margin: 10px;
+    }
+
+    .about-memo{
+        width: 50%;
+        height: 40%;
+        padding: 0%;
+    }
+
+    .about-memo p{
+        padding: 0;
+        margin: 0;
+    }
+
+/* services section adjustments */
+
+    .services :nth-child(1) { grid-area: b1; }
+    .services :nth-child(2) { grid-area: b2; }
+    .services :nth-child(3) { grid-area: b3; }
+    .services :nth-child(4) { grid-area: b4; }
+    .services :nth-child(5) { grid-area: b5; }
+    
+    .services {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas:
+        "b1 b1 b1 b2 b2 b2"
+        "b3 b3 b4 b4 b5 b5";
+    }
+
+    .services div {
+        margin: 5px;
+    }
+
+    .vision{
+        color: white;
+    }
+
+/* team section adjustments */
+
+    .team :nth-child(1) { grid-area: b1; }
+    .team :nth-child(2) { grid-area: b2; }
+    .team :nth-child(3) { grid-area: b3; }
+    .team :nth-child(4) { grid-area: b4; }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas:
+        "b1 b2"
+        "b4 b3";
+    }
+
+/* contact section adjustments */
+
+    .contact :nth-child(1) { grid-area: b1; }
+    .contact :nth-child(2) { grid-area: b2; }
+    .contact :nth-child(3) { grid-area: b3; }
+
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(8,1fr);
+        grid-template-areas:
+        "b1 b3"
+        "b1 b3"
+        "b1 b3"
+        "b1 b3"
+        "b1 b3"
+        "b2 b2"
+        "b2 b2"
+        "b2 b2";
+    }
+
+    #name,#email {
+        width: 95%;
+        padding: 5px;
+    }
+
+    textarea {
+        width: 96%;
+        height: 80px;
+        resize: none;
+    }
+}

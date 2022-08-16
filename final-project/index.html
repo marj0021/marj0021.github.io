@@ -1,179 +1,220 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Star Media</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title> Zayd's Final Project </title>
     
+    <!-- links a google map -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <!-- links icons -->
+    <script src="https://kit.fontawesome.com/1543f6ba9f.js" crossorigin="anonymous"></script>
+    
+    <!-- links open sans font regular and bold -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- links css stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="welcome">
-            <div class="container">
-                <header>
-                    <img src="images/logo.png" alt="Three Star Media">
-                    <nav>
-                        <ul> 
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                        <form class="search-head">
-                            <input type="text" name="search">
-                            <button type="submit">
-                                <span class="material-symbols-outlined">Search</span>
-                            </button>
-                        </form>
-                    </nav>
-                </header>
-            </div>
-        </div>
-    </div>
-    <div class="welcome"> 
-        <!--backgroud for the welcome section in the css-->
-        <div class="box">
-            <h1>Welcome to Three Star Media</h1>
-            <img src="images/main-banner.jpg" alt="banner main">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, numquam magnam delectus quasi temporibus officiis unde, nisi accusamus asperiores facere alias ratione odio minus, dolorum ullam harum praesentium? Neque, sapiente!</p>
-            <button type="button">
-            Connect with us<span class="material-symbols-outlined"></span>
-            </button>
-        </div>
-    </div>
-    <div class="content">
-            <div class="container">
-                <div class="about-us">
-                    <img src="images/about-us.jpg" alt="about us">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit voluptas magnam doloribus ex error ipsa saepe numquam voluptates sint ratione reiciendis quis unde sit, enim cumque iure quod libero.</p>
-                    <p>Facere quisquam sequi perspiciatis laudantium obcaecati reprehenderit corporis quis perferendis, aperiam dignissimos vero modi maiores quod, ratione eveniet excepturi illo. Et unde reprehenderit, placeat deserunt soluta optio rem voluptas est?</p>
+    <div class="navigation">
+        <div class="wrapper">
+            <div class="nav">
+                <div class="logo">
+                    <img id="logo" src="images/logo.png" alt="logo of three star media"/>
                 </div>
-            </div>
-     </div>
-    <div class="container">
-        <!-- make grid in css / services  -->
-            <div class="services">
-                <h2>Our Services</h2>
-                <div class="digital-transformation">
-                    <img src="images/digital.jpg" alt="phone and laptop">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus accusantium, fuga rem perferendis expedita repudiandae quam eveniet impedit iure eligendi suscipit porro non, iusto ipsum, molestias ad asperiores maxime ea?</p>
-                    <button type="button">
-                        Digital Plans
-                        <span class="material-symbols-outlined"></span>
-                    </button>
+                <div>
+                    <ul>
+                        <li id="home"><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="marketing">
-                    <img src="images/marketing.jpg" alt="laptop">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a aperiam deserunt provident reiciendis qui totam quo repudiandae iste assumenda iure, eligendi obcaecati modi impedit quisquam velit inventore culpa fugit!</p>
-                    <button type="button">
-                        Marketing Plans
-                        <span class="material-symbols-outlined"></span>
-                    </button>
-                </div>
-                <div class="video_production">
-                    <img src="images/video.jpg" alt="phone">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia cupiditate dolorum, repudiandae quia quis fugiat molestias alias nisi hic iure, quasi fuga maiores totam officia numquam at tempore nostrum?</p>
-                    <button type="button">
-                        Video Plans
-                        <span class="material-symbols-outlined"></span>
-                    </button>
-                </div>
-                <div class="web">
-                    <img src="images/web.jpg" alt="phone, pen and notebook">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus assumenda veniam magni, omnis obcaecati iusto. Illum, rerum ab nostrum debitis sit qui dolore aut ratione voluptate expedita ullam iusto cumque.</p>
-                    <button type="button">
-                        Web Plans
-                        <span class="material-symbols-outlined"></span>
-                    </button>
-                </div>
-                <div class="print">
-                    <img src="images/print.jpg" alt="newspaper">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo soluta laudantium dicta nostrum non aspernatur deserunt! Veniam rerum quidem commodi eveniet et nulla, dolor, dolorem, perspiciatis maiores esse unde reprehenderit.</p>
-                    <button type="button">
-                            Print Plans
-                            <span class="material-symbols-outlined"></span>
+                <div>
+                    <form action="#">
+                        <input type="text" placeholder="Search" name="search">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
+                    </form>
                 </div>
             </div>
+        </div>
     </div>
-    
-    <div class="bg-vision">
-            <!-- adding background image in css-->
-        <div class="vision">
-            <img src="images/vision.jpg" alt="our vison">
-            <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita voluptatum in quaerat, facilis voluptatibus nam velit ab! Quae ullam perspiciatis, quos fuga facere modi adipisci, sequi deserunt tempore harum dolorem!</p>
+<!--background for the welcome section in the css-->
+    <div class="welcome">
+        <header>
+            <h1>Welcome to Three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in ratione assumenda nulla, inventore maiores autem sed nobis, quasi explicabo distinctio culpa veritatis dolorem laborum, iusto aliquam asperiores consequatur facilis.</p>
             <button type="button">
-                Learn More
-                <span class="material-symbols-outlined"></span>
+                Connect with us<i class="fa-solid fa-play"></i>
             </button>
+        </header>
+    </div>
+<!-- about = apply flexbox in css -->
+    <div class="about">
+        <div class="wrapper">
+            <div class="about-flex">
+                <div class="about-img">
+                    <img src="images/about-us.jpg" alt="image of a ping-pong table"/>
+                </div>
+                <div class="about-memo">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio recusandae reiciendis iure harum, quae incidunt corrupti illo totam quibusdam, distinctio exercitationem odit consectetur eius omnis ea repellat ipsam animi voluptatum.</p>
+                    <br>
+                    <p>Maxime doloribus corporis delectus id quia ipsa tempora fugit! Deleniti saepe autem nostrum officiis sed consectetur. Illum itaque accusamus voluptate, quasi magnam vero, quos minima quae ex, reiciendis tenetur dolore!</p> 
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container">
-        <!-- make grid in css / team -->
+<!-- make grid in css / services  --> 
+    <div class="wrapper">
+        <h2>Our Services</h2>
+        <div class="services">  
+            <div>
+                <img src="images/digital.jpg" alt="image of a cellphone and laptop"/>
+                <h3>Digital Transformation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sunt in veniam eum natus totam autem, eaque consequuntur est suscipit sapiente, ut numquam sint dolore, ex nobis dolor. Id, quas?</p>
+                <button type="button">
+                    Digital Plans
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+            <div>
+                <img src="images/marketing.jpg" alt="image of a laptop"/>
+                <h3>Marketing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sunt in veniam eum natus totam autem, eaque consequuntur est suscipit sapiente, ut numquam sint dolore, ex nobis dolor. Id, quas?</p>
+                <button type="button">
+                    Marketing Plans
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+            <div>
+                <img src="images/video.jpg" alt="image of a cellphone"/>
+                <h3>Video Production</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sunt in veniam eum natus totam autem, eaque consequuntur est suscipit sapiente, ut numquam sint dolore, ex nobis dolor. Id, quas?</p>
+                <button type="button">
+                    Video Plans
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+            <div>
+                <img src="images/web.jpg" alt="image of a notebook, cellphone, and pen"/>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sunt in veniam eum natus totam autem, eaque consequuntur est suscipit sapiente, ut numquam sint dolore, ex nobis dolor. Id, quas?</p>
+                <button type="button">
+                    Web Plans
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+            <div>
+                <img src="images/print.jpg" alt="image of newspaper stands"/>
+                <h3>Print</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sunt in veniam eum natus totam autem, eaque consequuntur est suscipit sapiente, ut numquam sint dolore, ex nobis dolor. Id, quas?</p>
+                <button type="button">
+                    Print Plans
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+<!-- adding background image in css-->
+    <div class="vision">
+        <div class="wrapper">
+            <h3>Our Vision</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque expedita culpa animi inventore tempore veniam impedit ad cumque dignissimos consequatur a commodi praesentium omnis quia minima! Animi, nulla provident.</p>
+                <button type="button">
+                    Learn More
+                    <i class="fa-solid fa-play"></i>
+                </button>
+        </div> 
+    </div>
+<!-- make grid in css / team -->
+    <div class="wrapper">
+        <h2>Our Team</h2>
         <div class="team">
-            <h2>Our Team</h2>
-            <div class="john">
-                <img src="images/john.jpg" alt="picture of john">
+            <div>
+                <img src="images/john.jpg" alt="image of john doe"/>
+            </div>
+            <div>
                 <h3>John Doe</h3>
-                <h6>CEO and Co-owner</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ratione nemo temporibus reprehenderit, molestias deserunt doloremque similique ab sapiente a perspiciatis nisi eius hic laborum neque earum adipisci, mollitia atque?</p>
+                <h4>CEO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, unde? Quibusdam rem, animi fugit vero maxime incidunt dolore cum placeat vel reiciendis provident ex aliquid ea recusandae? Dolorem, fugit neque.</p>
             </div>
-            <div class="bob">
-                <img src="images/bob.jpg" alt="picture of bob">
+            <div>
+                <img src="images/bob.jpg" alt="image of bob rite"/>
+            </div>
+            <div>
                 <h3>Bob Rite</h3>
-                <h6>CEO and Co-owner</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tempora nisi saepe quibusdam et veniam deleniti molestiae laudantium quis corrupti enim eaque officia impedit quisquam perferendis qui, dicta labore nostrum!</p>
+                <h4>CFO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, unde? Quibusdam rem, animi fugit vero maxime incidunt dolore cum placeat vel reiciendis provident ex aliquid ea recusandae? Dolorem, fugit neque.</p>
             </div>
         </div>
     </div>
-    <div class="container">
-            <!-- make a grid in css / contact  -->
-        <div class="Contact">
-            <label for="name">Full Name</label><br>
-            <input type="text" id="name" name="fullname" class="forminput"><br><br>
-
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="emailaddress" class="forminput"><br><br>
-
-            <label for="message">Message</label><br>
-            <input type="text" id="message" name="message" class="formmessageinput"><br><br>
-
-            <button type="submit" class="formbutton"> SEND</button>
+<!-- make a grid in css / contact  -->
+    <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <div>
+                <h3>Send us a message</h3>
+                <form>
+                    <fieldset>
+                        <label for="name">Full Name</label>
+                        <input id="name" type="text" name="name" required>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input id="email" type="text" name="email" required>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <label for="message">Message<br> </label>
+                        <textarea id="message" name="message"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Send">
+                    </form>
+            </div>
+            <div>
+                <h3>Hours of operation</h3>
+                <table>
+                    <tr>
+                        <th id="days">Days</th>
+                        <th id="hours">Hours</th>
+                    </tr>
+                    <tr>
+                        <th>Monday - Friday</th>
+                        <th>9 AM - 6 PM</th>
+                    </tr>
+                    <tr>
+                        <th>Saturday - Sunday</th>
+                        <th>Closed</th>
+                    </tr>
+                </table>
+            </div>
+            <!-- Location Address -->
+            <div>
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1542.8064605212478!2d-75.75579147059412!3d45.349749576029375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1659134137380!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
         </div>
-    </div>
-    <div class="hours">
-        <h3>Hours of Operation</h3>
-        <table>
-            <tr>
-                <th>Days</th>
-                <th>Monday-Friday</th>
-                <th>Saturday-Sunday</th>
-            </tr>
-            <tr>
-                <th>Hours</th>
-                <th>9 AM - 6 PM</th>
-                <th>Closed</th>
-            </tr>
-        </table>
-    </div>
-    <!-- Location Address -->
-    <div class="location">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447385726858!2d-75.75713084878855!3d45.34992777899725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1658865928510!5m2!1sen!2sca"  style="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <footer>
-        &copy; Copyright Three Star Media 2022 <br>
-        All images are taken from <a href="https://unsplash.com/">Unsplash</a>
-    </footer>
+        <div class="wrapper">
+            <p>© Copyright Three Star Media, 2020</p>
+            <br>
+            <p>All images are taken from <a href="#">Unsplash</a></p>
+        </div>
+    </footer> 
 </body>
 </html>
